@@ -1,0 +1,3 @@
+# Bono CMS documentation
+
+Welcome
