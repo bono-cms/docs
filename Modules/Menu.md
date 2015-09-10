@@ -25,14 +25,14 @@ Assuming we have a menu category with a class called "top", then the menu sectio
 
 Once we've configured the menu, let's render it. The menu services has the following methods:
 
-## renderByClass(\$class, \$id = null)
+## renderByClass($class, $id = null)
 
 Renders menu block by provided category class. If you want current item to be marked as active, then you need to provide an id of that element. In most cases, you can simply pass `$page->getWebPageId()`
 
-# renderByAssocWebPageId(\$id)
+# renderByAssocWebPageId($id)
 
 Renders a whole category's block by associated web page id. As in example above you should pass a web page id.
 
-## getCategoryNameByClass(\$class)
+## getCategoryNameByClass($class)
 
 Returns category name by its associated class
