@@ -40,4 +40,7 @@ This is how you're going to use it in category templates
     
     <?php endforeach; ?>
     <?php endif; ?>
-    
+
+# What about comments?
+
+Most sites nowadays attach social-plugins (Facebook, Discuss and your name it) instead of their own comments. That's why there's no implementaion of the own comment system at the moment.
