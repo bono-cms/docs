@@ -1,13 +1,17 @@
 Slider module
 ============
 
-This module allows you to manage slides on your site. It has one pre-defined service which is called $slider. The service has two available methods:
+This module allows you to manage slides on your site. It has one pre-defined service which is called `$slider`. The service has two available methods:
 
-# has($class)
+# has()
+
+    \Slider\Service\SiteService::has($class)
 
 Checks whether category has at least one slide image by its associated class name
 
-# getAll($class)
+# getAll()
+
+    \Slider\Service\SiteService::getAll($class)
 
 Returns all slide entities by associated category's class name
 
@@ -16,15 +20,15 @@ Each slide's entity has the following methods:
 
 # getName()
 
-Returns slide's name
+Returns slide's name.
 
 # getDescription()
 
-Returns slide's description
+Returns slide's description.
 
 # getLink()
 
-Returns slide's link
+Returns slide's link.
 
 # getImageBag()->getUrl($dimension)
 
