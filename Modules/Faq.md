@@ -5,13 +5,17 @@ This module allows you to manage Frequently-Asked-Questions on your site. In ord
 
 Each faq's entity has the following methods:
 
+# getId()
+
+Returns unique FAQ id.
+
 # getQuestion()
 
-Returns a question
+Returns a question.
 
 # getAnswer()
 
-Returns an answer to its corresponding question
+Returns an answer to its corresponding question.
 
 # Example: Usage in faq's template
 
