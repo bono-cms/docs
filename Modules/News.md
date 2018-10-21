@@ -6,7 +6,7 @@ This module allows you to manage news on your site. To start using it, you must 
 Each post entity has the following methods:
 
 
-# getTitle()
+### getTitle()
 
 Return post's title
 
@@ -34,6 +34,17 @@ Returns formatted date for the post's template
 
 Returns formatted date for the category's template
 
+# Image gallery
+
+Sometimes your site might require for each post to have image gallery. Luckily, this feature comes right out of the box. There are 2 additional available methods in post entity object:
+
+## hasGallery()
+
+Returns boolean value indicating whether current post has at least one attached image.
+
+## getGallery()
+
+Returns an array of image entities attached to current post.
 
 # Example: Rendering posts in some category
 
@@ -61,5 +72,4 @@ Returns category's description
 # getUrl()
 
 Returns category's URL
-
 
